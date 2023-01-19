@@ -1,0 +1,146 @@
+/* Palette variables */
+:root {
+  --theme-primary: #0d0d0dd8;
+  --theme-secondary: #60e5cae7;
+  --theme-details: #595959db;
+  --opacity: #1717174f;
+  --hover: #57575779;
+  --background: #000;
+  --default-white: whitesmoke;
+  --top-rated: #e5d160e7;
+}
+
+/* General styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--default-white);
+}
+
+/** Search input **/
+.form {
+  position: relative;
+  margin-bottom: 1em;
+  min-width: 30%;
+}
+
+.search-container {
+  display: flex;
+  padding: 0 100px 10px 100px;
+  justify-content: center;
+  background-color: var(--theme-primary);
+}
+
+.search {
+  width: 100%;
+  padding: 0.3em 2.5em 0.3em 1.5em;
+  border-radius: 30px;
+  border: 1px solid var(--theme-details);
+  outline: transparent;
+  background-color: transparent;
+  color: #8b8989;
+  opacity: 50%;
+}
+
+/* Search magnifying glass icon */
+.submit-search {
+  position: absolute;
+  top: 0.2em;
+  right: 0.6em;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--theme-secondary);
+}
+
+/* Poster image wallpaper */
+.wallpaper {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 600px;
+  margin-bottom: 10em;
+  background-size: cover;
+  background-position: top center;
+  background-color: var(--theme-primary);
+}
+
+/* Poster content */
+.wallpaper-content {
+  width: 70%;
+  padding: 0 0 3em 6em;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1;
+}
+
+.button {
+  margin: 20px 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid var(--theme-details);
+  transition: box-shadow 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  background: var(--theme-primary);
+  color: var(--default-white);
+}
+
+.button:hover {
+  box-shadow: 0 5px 5px var(--hover);
+  color: var(--theme-details);
+}
+
+/* Youtuve container */
+.youtube {
+  width: 100%;
+  height: 600px;
+}
+
+.close-video {
+  position: absolute;
+  opacity: 20%;
+  bottom: -18%;
+  left: 46%;
+}
+
+/* center-max-size {
+  max-width: 95%;
+  padding: 0;
+} */
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-bottom: 10em;
+  gap: 1em;
+}
+
+@media (max-width: 1100px) {
+  .form {
+    min-width: 310px;
+  }
+}
+
+@media (max-width: 954px) {
+  .wallpaper-content {
+    margin-top: 4em;
+  }
+
+  .play-video {
+    margin: 150px 0 30px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    min-width: 250px;
+  }
+}
