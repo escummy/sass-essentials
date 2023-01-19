@@ -1,0 +1,26 @@
+  # Base url
+  BASE_URL = https://api.themoviedb.org/3;
+
+  # Private API key
+  API_KEY = import.meta.env.VITE_API_KEY;
+
+  # Image path
+  IMAGE_PATH = https://image.tmdb.org/t/p/w342;
+
+  # Backdrop image.tmdb 
+  BACKDROP_PATH = https://image.tmdb.org/t/p/w1280;
+
+  # Base url + GET request path
+  POPULAR = BASE_URL + "movie/popular";
+  TOP_RATED = BASE_URL + "movie/top_rated";
+  UPCOMING = BASE_URL + "movie/upcoming";
+
+  # Discover
+  DISCOVER = BASE_URL + "discover/movie";
+
+  # Search
+  SEARCH = BASE_URL + "search/movie";
+
+  # Specific search query examples
+  "query=star%20wars";
+  "query=god%20father"
