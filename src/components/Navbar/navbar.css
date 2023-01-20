@@ -29,7 +29,7 @@
 
 .nav-items a {
   margin: 0 1.2em;
-  padding-top: 1em;
+  padding: 1em 0 0.4em 0;
   font-size: large;
   font-weight: 300;
   text-decoration: none;
@@ -42,9 +42,14 @@
   color: var(--theme-details);
 }
 
+@media (max-width: 1491px) {
+  .brand {
+    margin-top: 2em;
+  }
+}
+
 
 /* Media queries */
-
 @media (max-width: 858px) {
   .brand {
     padding-top: 2em;
