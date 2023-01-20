@@ -1,12 +1,13 @@
 {
-  "name": "tmdb-technical-test",
+  "name": "tmdb-posters-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
+    "coverage": "jest --coverage",
     "test": "jest --watchAll"
   },
   "dependencies": {
@@ -20,7 +21,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2",
-    "react-scripts": "5.0.1",
     "react-youtube": "^10.1.0",
     "react-redux": "^8.0.5",
     "redux-persist": "^6.0.0"
