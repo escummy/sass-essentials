@@ -8,9 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/App.css";
 
 export const Home = () => {
-
   // const API_KEY = import.meta.env.VITE_API_KEY;
-  const API_KEY = "10b20c63b20e1f2c1b40bc1c9ff8a934";
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const BASE_URL = "https://api.themoviedb.org/3/";
   const BACKDROP_PATH = "https://image.tmdb.org/t/p/w1280";
   const SEARCH = BASE_URL + "search/movie";
@@ -145,7 +144,6 @@ export const Home = () => {
                   </button>
                 </>
               ) : (
-
                 <div className="wallpaper-content">
                   {trailer ? (
                     <button
