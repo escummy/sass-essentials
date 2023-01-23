@@ -9,7 +9,7 @@
 
 .movie img {
   height: 350px;
-  max-width: 100%;
+  max-width: 110%;
   border-radius: 2.5%;
   cursor: pointer;
 }
