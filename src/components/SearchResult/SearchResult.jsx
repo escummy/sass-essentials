@@ -37,7 +37,6 @@ export const SearchResult = ({ movie }) => {
     <>
       <Card sx={{ display: "flex", height: 300, m: 1 }}>
         <CardMedia
-        className="card"
           component="img"
           sx={{ width: 200 }}
           image={`https://image.tmdb.org/t/p/w342${movie.poster_path}`}
