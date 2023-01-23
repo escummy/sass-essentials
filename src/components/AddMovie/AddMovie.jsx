@@ -39,7 +39,7 @@ export const AddMovie = () => {
             onChange={handleSearch}
           />
           <button className="submit-search" type="submit">
-            <i className="fa fa-search"></i>
+            <i class="fa-sharp fa-solid fa-keyboard"></i>
           </button>
         </form>
       </div>
