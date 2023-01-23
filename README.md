@@ -21,7 +21,7 @@
 <!-- ## Snapshots -->
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90976678/213534490-997b795b-2652-4ae3-902d-6f106905ac9b.gif" width="95%" title="node-typescript-setup repository by escummy" alt="accessibility text">
+  <img src="https://user-images.githubusercontent.com/90976678/213534490-997b795b-2652-4ae3-902d-6f106905ac9b.gif" width="95%" title="TMDB posters repository by escummy" alt="accessibility text">
 </p>
 
 <br>
@@ -78,7 +78,7 @@ Install the necessary dependencies and devDependencies from any package.json
 
 <br>
 
-## Available Scripts
+## Available scripts
 
 In the project directory, you can run:
 
@@ -91,9 +91,26 @@ npm run dev
 > > The page will reload if you make edits.\
 > > You will also see any lint errors in the console.
 
+<br>
+
+## To run tests
+
+Start checking tests with the following command, which will open a debug console and UI interface in the browser to help with the testing process.
+
 ```
 npm test
 ````
+
+<br>
+
+## To build in prodcution
+
+Builds the app for production to the `build` or `dist` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+> The build is minified and the filenames include the hashes.\
+> Your app is ready to be deployed.
+> > This VITE react project build and deploy following [Vite guidelines](https://vitejs.dev/guide/).
 
 <br>
 
@@ -103,12 +120,9 @@ npm run build
 
 <br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To run a preview
 
-> The build is minified and the filenames include the hashes.\
-> Your app is ready to be deployed!
-> > This VITE react project build and deploy following [Vite guidelines](https://vitejs.dev/guide/).
+This is one-way to check the project in the browser using the production build folder.
 
 <br>
 
@@ -118,27 +132,30 @@ npm run preview
 
 <br>
 
-**Note: this is a one-way to check the project in the browser using the production build folder!**
+## Deployment
+
+This repository is deployed in 'Github Pages' using npm gh-pages package, be able to run the following script. Check the live
+
+```
+npm run deploy
+```
+
+
+<br>
 
 ## Learn More
 
-You can learn more in the [Npm create vite@latest, check documentation for static deploy or usind babel](https://vitejs.dev/guide/static-deploy.html#testing-the-app-locally).
+You can learn more in the [npm create vite@latest](https://vitejs.dev/guide/static-deploy.html#testing-the-app-locally),  check documentation for static deploy or babel usage.
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 Recomendations: 
 - Check this visual studio code [settings.json](https://github.com/escummy/vscode-settings-json)
-- To install the necessary extensions, add 'missing extensions' to your vscode
+- To install the necessary extensions, add extension 'missing extensions' to your vscode
 
 <br>
 
 <!-- ### # Check status
-
-- Run `Watch`: Which just watches for changes and still does development compiling, it shows any console.log declared for example
-
-```bash
-  npm run watch
-```
 
 This will launch a web browser that will auto-update every time you save a watched file as(#specify-files-to-watch), but before push to production, we recommend minify the outputs files and caching how this purpose package helper [Browsersync](https://www.browsersync.io/) -->
 
