@@ -42,24 +42,7 @@
   color: var(--theme-details);
 }
 
-@media (max-width: 1491px) {
-  .brand {
-    margin-top: 2em;
-  }
-}
-
-
 /* Media queries */
-@media (max-width: 858px) {
-  .brand {
-    padding-top: 2em;
-  }
-
-  .nav-items ul {
-    margin-top: 2.5em;
-  }
-}
-
 @media (max-width: 530px) {
   .brand > a {
     padding-left: 6.5em;
