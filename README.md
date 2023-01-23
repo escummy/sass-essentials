@@ -132,17 +132,6 @@ npm run preview
 
 <br>
 
-## Deployment
-
-This repository is deployed in 'Github Pages' using npm gh-pages package, be able to run the following script. Check the live
-
-```
-npm run deploy
-```
-
-
-<br>
-
 ## Learn More
 
 You can learn more in the [npm create vite@latest](https://vitejs.dev/guide/static-deploy.html#testing-the-app-locally),  check documentation for static deploy or babel usage.
